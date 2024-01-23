@@ -65,16 +65,17 @@
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
-                        <li><a class="text-[#FF4240] font-bold   text-center">Home</a></li>
-                        <li><a class="font-bold   text-center">About</a></li>
-                        <li><a class="font-bold   text-center">Pages</a></li>
-                        <li><a class="font-bold  text-center">Blog</a></li>
-                        <li><a class="font-bold   text-center">Contact</a></li>
+                        <li><a class="text-[#FF4240] font-bold text-[16px]  text-center">Home</a></li>
+                        <li><a class="  text-center text-[16px]">About</a></li>
+                        <li><a class="   text-center text-[16px]">Pages</a></li>
+                        <li><a class="  text-center text-[16px]">Blog</a></li>
+                        <li><a class="   text-center text-[16px]">Contact</a></li>
                     </ul>
+                    
                 </div>
                 <div class="navbar-end">
                     <!-- some problems -->
-                    <div class=" md:mr-4 lg:mr-4">
+                    <div class="hidden md:flex md:mr-4">
                         <i class="fa-solid fa-magnifying-glass "></i>
                     </div>
                     <a><button class="btn  bg-button-primary text-white">Get Ticket</button></a>
@@ -85,11 +86,75 @@
     </header>
     <main class=" container md:max-auto lg:mx-auto">
         <!-- banner section start  -->
+        <section>
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative  w-full bg-[url(./images/1.png)] md:bg-cover  h-[550px] md:h-[600px] bg-center" >
+               
+                    <div class="absolute bg-black p-3 md:p-9 bottom-0 md:bottom-8 md:right-8 md:w-[550px]  rounded-lg">
+                        <h1 class="text-2xl font-extrabold text-white">Meet all the heroes from the field</h1>
+                        <p class="font-medium text-[#FFFFFF99] mt-3"> Heroes can be individuals who have made significant contributions or achieved noteworthy accomplishments in their respective fields. </p>
 
+                    </div>
+
+                  <div class="absolute flex  gap-6 md:bottom-8 md:ml-9 ml-36 mt-80">
+                    <a href="#slide4" class="btn btn-circle text-white bg-black">❮</a> 
+                    <a href="#slide2" class="btn btn-circle  text-white bg-black">❯</a>
+                  </div>
+                </div> 
+
+
+                
+                <div id="slide2" class="carousel-item relative  w-full bg-[url(./images/2.png)] md:bg-cover  h-[550px] md:h-[600px] bg-center" >
+               
+                    <div class="absolute bg-black p-3 md:p-9 bottom-0 md:bottom-8 md:right-8 md:w-[550px]  rounded-lg">
+                        <h1 class="text-2xl font-extrabold text-white">Meet all the heroes from the field</h1>
+                        <p class="font-medium text-[#FFFFFF99] mt-3"> Heroes can be individuals who have made significant contributions or achieved noteworthy accomplishments in their respective fields. </p>
+
+                    </div>
+
+                  <div class="absolute flex justify-between transform -translate-y-1/2 gap-6 md:bottom-8 md:ml-9 ml-36 mt-80">
+                    <a href="#slide1" class="btn btn-circle text-white bg-black">❮</a> 
+                    <a href="#slide3" class="btn btn-circle  text-white bg-black">❯</a>
+                  </div>
+                </div> 
+
+
+
+                <div id="slide3" class="carousel-item relative  w-full bg-[url(./images/3.png)] md:bg-cover  h-[550px] md:h-[600px] bg-center" >
+               
+                    <div class="absolute bg-black p-3 md:p-9 bottom-0 md:bottom-8 md:right-8 md:w-[550px]  rounded-lg">
+                        <h1 class="text-2xl font-extrabold text-white">Meet all the heroes from the field</h1>
+                        <p class="font-medium text-[#FFFFFF99] mt-3"> Heroes can be individuals who have made significant contributions or achieved noteworthy accomplishments in their respective fields. </p>
+
+                    </div>
+
+                  <div class="absolute flex justify-between transform -translate-y-1/2 gap-6 md:bottom-8 md:ml-9 ml-36 mt-80">
+                    <a href="#slide2" class="btn btn-circle text-white bg-black">❮</a> 
+                    <a href="#slide4" class="btn btn-circle  text-white bg-black">❯</a>
+                  </div>
+                </div> 
+
+
+                <div id="slide4" class="carousel-item relative  w-full bg-[url(./images/4.png)] md:bg-cover  h-[550px] md:h-[600px] bg-center" >
+               
+                    <div class="absolute bg-black p-3 md:p-9 bottom-0 md:bottom-8 md:right-8 md:w-[550px]  rounded-lg">
+                        <h1 class="text-2xl font-extrabold text-white">Meet all the heroes from the field</h1>
+                        <p class="font-medium text-[#FFFFFF99] mt-3"> Heroes can be individuals who have made significant contributions or achieved noteworthy accomplishments in their respective fields. </p>
+
+                    </div>
+
+                  <div class="absolute flex justify-between transform -translate-y-1/2 gap-6 md:bottom-8 md:ml-9 ml-36 mt-80">
+                    <a href="#slide3" class="btn btn-circle text-white bg-black">❮</a> 
+                    <a href="#slide1" class="btn btn-circle  text-white bg-black">❯</a>
+                  </div>
+                </div> 
+              </div>
+
+        </section>
         <!-- banner section end -->
         <!-- Hockeys Club section style start -->
 
-        <section>
+        <section class="mt-20">
             <h1 class="text-center text-4xl font-bold">Professional Hockeys Club</h1>
             <div class="flex justify-center mt-3">
                 <p class="text-[rgba(19, 19, 24, 0.60)] text-center font-medium w-[400px] md:w-[500px]  lg:w-[800px]">A
@@ -185,7 +250,7 @@
         <!-- our new products style start  -->
         <section >
                 <h1 class="text-center text-4xl font-extrabold mt-10 md:mt-20 mb-3">Our New Products</h1>
-                <p>Elevate your fitness journey with our sleek and feature-packed Fitness Tracker. Monitor heart rate, track workouts, and receive smart notifications. Achieve your health goals in style. </p>
+                <p class="p-6">Elevate your fitness journey with our sleek and feature-packed Fitness Tracker. Monitor heart rate, track workouts, and receive smart notifications. Achieve your health goals in style. </p>
 
              <div>
                <!-- our new products first part  -->
@@ -347,7 +412,7 @@
             Address your clients' questions with clarity and professionalism. Offer concise and informative responses to ensure their satisfaction and understanding of your products or services.</p>
       </div>
 
-     <div class="flex flex-col md:flex-row gap-5  lg:gap-20 mt-10 md:mt-32">
+     <div class="flex flex-col md:flex-row gap-5  lg:gap-20 mt-10 md:mt-32 md:border md:p-10 rounded-lg">
         <div>
             <img class="p-2" src="./images/11.png" alt="">
         </div>
@@ -445,7 +510,7 @@
                     <div class="bg-[#fddd5f57] rounded-2xl p-10 space-y-3">
                         <img src="./images/Group 1171275318.png" alt="">
                         <h1 class="text-[rgba(19, 19, 24, 0.40)] font-normal">Email : </h1>
-                        <h2 class="font-extrabold text-2xl">hockeys@support.com</h2>
+                        <h2 class="font-extrabold text-2xl">hockey @support.com</h2>
                     </div>
 
                     <div class="bg-[#629CF31A] rounded-2xl p-10 space-y-3">
